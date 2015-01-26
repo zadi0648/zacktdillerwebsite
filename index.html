@@ -1,0 +1,127 @@
+<!doctype html>
+<html>
+<!-- HEAD -->
+<head>
+<meta charset="UTF-8">
+<title>Zack Diller's Website</title>
+<link href='style.css' rel='stylesheet' type='text/css'>
+
+<!-- Java script to provide the link roll-over effects -->
+<script type="text/javascript">
+/* About */
+function expandAboutBox() {
+	var change = document.getElementById("linkBox1");
+	change.style.width = "80px";
+	change.style.left = "-200px";
+}
+function shrinkAboutBox() {
+	var change = document.getElementById("linkBox1");
+	change.style.width = "0px";
+	change.style.left = "-160px";
+}
+/* Game Design */
+function expandGameBox() {
+	var change = document.getElementById("linkBox2");
+	change.style.width = "80px";
+	change.style.left = "-120px";
+}
+function shrinkGameBox() {
+	var change = document.getElementById("linkBox2");
+	change.style.width = "0px";
+	change.style.left = "-80px";
+}
+/* Studies */
+function expandStudyBox() {
+	var change = document.getElementById("linkBox3");
+	change.style.width = "80px";
+	change.style.left = "-40px";
+}
+function shrinkStudyBox() {
+	var change = document.getElementById("linkBox3");
+	change.style.width = "0px";
+	change.style.left = "0px";
+}
+/* Resume */
+function expandResumeBox() {
+	var change = document.getElementById("linkBox4");
+	change.style.width = "80px";
+	change.style.left = "40px";
+}
+function shrinkResumeBox() {
+	var change = document.getElementById("linkBox4");
+	change.style.width = "0px";
+	change.style.left = "80px";
+}
+/* Contact */
+function expandContactBox() {
+	var change = document.getElementById("linkBox5");
+	change.style.width = "80px";
+	change.style.left = "120px";
+}
+function shrinkContactBox() {
+	var change = document.getElementById("linkBox5");
+	change.style.width = "0px";
+	change.style.left = "160px";
+}
+</script>
+</head>
+
+<body>
+
+<!-- Background -->
+<div id="bg"> <img src="images/codeBG.jpg" alt="Wallpaper thanks to http://wonderfulengineering.com/37-programmer-code-wallpaper-backgrounds-free-download/"> </div>
+
+<!-- Wrapper centers everything on page, everything should be within the wrapper. -->
+<div id="wrapper"> 
+  
+  <!-- Header: Contains links and website name -->
+  <header id = "headerStripeBG"></header>
+  <header id = "headerStripe"></header>
+  <header id = "headerBox"><a href= "index.html">Zachary T. Diller</a></header>
+  <header id = "headerBoxUnder">Software Engineer - Game Programmer</header>
+  
+  <!-- NAVIGATION -->
+  <div id = "centerStuff"> 
+    <!-- About Me -->
+    <nav id = linkBox1></nav>
+    <nav id = linkBoxAbout> <a href= "about.html" onMouseOver="expandAboutBox()" onMouseOut="shrinkAboutBox()">About</a></nav>
+    <!-- Game Design -->
+    <nav id = linkBox2></nav>
+    <nav id = linkBoxGame> <a href= "game.html" onMouseOver="expandGameBox()" onMouseOut="shrinkGameBox()">Games</a></nav>
+    <!-- Studies -->
+    <nav id = linkBox3></nav>
+    <nav id = linkBoxStudies> <a href= "studies.html" onMouseOver="expandStudyBox()" onMouseOut="shrinkStudyBox()">Studies</a></nav>
+    <!-- Resume -->
+    <nav id = linkBox4></nav>
+    <nav id = linkBoxResume> <a href= "resume.html" onMouseOver="expandResumeBox()" onMouseOut="shrinkResumeBox()">Résumé</a></nav>
+    <!-- Contact Info -->
+    <nav id = linkBox5></nav>
+    <nav id = linkBoxContact> <a href= "contact.html" onMouseOver="expandContactBox()" onMouseOut="shrinkContactBox()">Contact</a></nav>
+  </div>
+  <!-- END OF NAVIGATION --> 
+  
+  <!-- CONTENT -->
+  
+  <article id = "aboutBox">
+    <div id="spacer">
+      <div align="center" id="norm"><font id="homeQ"><font id="quote">"A good programmer is someone who looks both ways before crossing a one-way street."</font><br>
+        <br>
+        <font id="quoteUnder">- Doug Linder</font> </font> </div>
+      <br>
+      <br>
+      <h2>Hello, world!</h2>
+      <br>
+      <img id="selfPhoto" src="Images/me.jpg" alt="Picture of me (Zack Diller) while being flown in a small airplane my mom is piloting"> <br>
+      <p id="home">Welcome to my website! My full name is Zachary Travis Diller, but most just call me Zack. I am a skilled software engineer, life long video game enthusiast, and passionate video game developer. It has been a life long dream of mine to help create amazing and enthralling video games.</p>
+      <p id="home">This May I will be graduating with a BS in Computer Science from one of the nation's best CS schools; the Univeristy of Colorado at Boulder. This is my third year being Co-President of the CU Game Developer's Club.</p>
+      <br>
+      <br>
+    </div>
+    <br>
+    <br>
+  </article>
+  
+</div> <!-- end of wrapper -->
+
+</body>
+</html>

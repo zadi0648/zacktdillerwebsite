@@ -1,0 +1,560 @@
+@charset "UTF-8";
+/* by Zack Diller for my website */
+
+/* Custom font */
+@font-face {
+	font-family: textfont;
+	src: url('text/SFOldRepublic.ttf');
+}
+body {
+	font-size: 14px;
+	font-family: Verdana;
+	text-align: center;
+	margin: 0;
+	padding: 0;
+}
+h2 {
+	color: #FFFFFF;
+	font-size: 24px;
+	font-family: Verdana;
+	font-style: normal;
+	background-color: #D00000;
+	margin: 0 0 0;
+	padding-top: 5px;
+	padding-bottom: 8px;
+	padding-left: 15px;
+	font-weight: normal;
+}
+p {
+    text-indent: 50px;
+}
+#wrapper {
+	position: absolute;
+	width: 80%;
+	left: 10%;
+	min-width: 700px;
+	margin: 0 auto;
+	padding-bottom: 100px;
+}
+/* Background */
+#bg {
+	position: fixed;
+	top: -50%;
+	left: -50%;
+	width: 200%;
+	height: 200%;
+}
+#bg img {
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	margin: auto;
+	min-width: 50%;
+	min-height: 50%;
+}
+#img.source-image {
+	width: 100%;
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+/* Navigation ccs */
+ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+#navbox ul li {
+	list-style-type: none;
+	display: inline; /* So the list is linear */
+}
+/* Stripe behind name */
+#headerStripe {
+	position: absolute;
+	height: 132px;
+	width: 80%;
+	top: 25px;
+	left: 10%;
+	border-color: #454545;
+	border-bottom-style: solid;
+	border-width: 1px;
+	background-color: #FFFFFF;
+}
+#headerStripeBG {
+	position: absolute;
+	height: 230px;
+	width: 100%;
+	top: 25px;
+	left: 0%;
+	border-radius: 12px;
+	background-color: #FFFFFF;
+}
+/* My name */
+#headerBox {
+	position: absolute;
+	height: 284px;
+	width: 100%;
+	top: 24px;
+	left: 0px;
+	background-color: #transparent;
+	letter-spacing: 12px;
+	font-family: textfont;
+	font-size: 60px;
+	line-height: 100px;
+}
+#headerBox a:link {
+	color: #000000;
+	text-decoration: none;
+}
+#headerBox a:visited {
+	color: #000000;
+	text-decoration: none;
+}
+#headerBox a:active {
+	color: #000000;
+	text-decoration: none;
+}
+#headerBox a:hover {
+	/* Hover the TAM portal header to see cool drop shadow effects! */
+	color: #000000;
+	text-decoration: none;
+	text-shadow: 3px 4px 2px #998888;
+	-webkit-transition: all 1s ease-in;
+	-moz-transition: all 1s ease-in;
+	-o-transition: all 1s ease-in;
+	transition: all 1s ease-in;
+}
+/* "Software Engineer - Game Programmer" */
+#headerBoxUnder {
+	position: absolute;
+	height: 28px;
+	color: #454545;
+	width: 100%;
+	top: 117px;
+	left: 0px;
+	background-color: #transparent;
+	font-family: textfont;
+	font-size: 26px;
+}
+/* ----- LINKS ----- */
+#centerStuff {
+	position: absolute;
+	left: 50%;
+}
+/* About Me */
+#linkBoxAbout {
+	position: absolute;
+	font-size: 14px;
+	height: 25px;
+	width: 80px;
+	top: 158px;
+	left: -200px;
+	line-height: 22px;
+	background-color: #transparent;
+	border-width: 1px;
+	border-left-style: solid;
+	border-color: #454545;
+}
+#linkBoxAbout a:link {
+	color: #454545;
+	text-decoration: none;
+}
+#linkBoxAbout a:visited {
+	color: #454545;
+	text-decoration: none;
+}
+#linkBoxAbout a:hover {
+	color: #454545;
+	text-decoration: none;
+	color: #FFFFFF;
+	-webkit-transition: all 1s;
+	-moz-transition: all 1s;
+	-o-transition: all 1s;
+	transition: all 1s;
+}
+#linkBoxAbout a:active {
+	color: #454545;
+	text-decoration: none;
+}
+#linkBox1 {
+	position: absolute;
+	height: 25px;
+	width: 0px;
+	top: 158px;
+	left: -160px;
+	background-color: #D00000;
+	opacity: 1.0;
+	-webkit-transition: all 1s;
+	-moz-transition: all 1s;
+	-o-transition: all 1s;
+	transition: all 1s;
+}
+#linkBox1filled {
+	position: absolute;
+	height: 25px;
+	width: 80px;
+	top: 158px;
+	left: -200px;
+	background-color: #D00000;
+	opacity: 1.0;
+	-webkit-transition: all 1s;
+	-moz-transition: all 1s;
+	-o-transition: all 1s;
+	transition: all 1s;
+}
+/* End of about me */
+/* Game Design */
+#linkBoxGame {
+	position: absolute;
+	font-size: 14px;
+	height: 25px;
+	width: 80px;
+	top: 158px;
+	left: -120px;
+	line-height: 22px;
+	background-color: #transparent;
+	border-width: 1px;
+	border-left-style: solid;
+	border-color: #454545;
+}
+#linkBoxGame a:link {
+	color: #454545;
+	text-decoration: none;
+}
+#linkBoxGame a:visited {
+	color: #454545;
+	text-decoration: none;
+}
+#linkBoxGame a:hover {
+	color: #454545;
+	text-decoration: none;
+	color: #FFFFFF;
+	-webkit-transition: all 1s;
+	-moz-transition: all 1s;
+	-o-transition: all 1s;
+	transition: all 1s;
+}
+#linkBoxGame a:active {
+	color: #454545;
+	text-decoration: none;
+}
+#linkBox2 {
+	position: absolute;
+	height: 25px;
+	width: 0px;
+	top: 158px;
+	left: -80px;
+	background-color: #D00000;
+	opacity: 1.0;
+	-webkit-transition: all 1s;
+	-moz-transition: all 1s;
+	-o-transition: all 1s;
+	transition: all 1s;
+}
+#linkBox2filled {
+	position: absolute;
+	height: 25px;
+	width: 80px;
+	top: 158px;
+	left: -120px;
+	background-color: #D00000;
+	opacity: 1.0;
+	-webkit-transition: all 1s;
+	-moz-transition: all 1s;
+	-o-transition: all 1s;
+	transition: all 1s;
+}
+/* End of Game Design */
+/* Studies */
+#linkBoxStudies {
+	position: absolute;
+	font-size: 14px;
+	height: 25px;
+	width: 80px;
+	top: 158px;
+	left: -40px;
+	line-height: 22px;
+	background-color: #transparent;
+	border-width: 1px;
+	border-left-style: solid;
+	border-color: #454545;
+}
+#linkBoxStudies a:link {
+	color: #454545;
+	text-decoration: none;
+}
+#linkBoxStudies a:visited {
+	color: #454545;
+	text-decoration: none;
+}
+#linkBoxStudies a:hover {
+	color: #454545;
+	text-decoration: none;
+	color: #FFFFFF;
+	-webkit-transition: all 1s;
+	-moz-transition: all 1s;
+	-o-transition: all 1s;
+	transition: all 1s;
+}
+#linkBoxStudies a:active {
+	color: #454545;
+	text-decoration: none;
+}
+#linkBox3 {
+	position: absolute;
+	height: 25px;
+	width: 0px;
+	top: 158px;
+	left: 0px;
+	background-color: #D00000;
+	opacity: 1.0;
+	-webkit-transition: all 1s;
+	-moz-transition: all 1s;
+	-o-transition: all 1s;
+	transition: all 1s;
+}
+#linkBox3filled {
+	position: absolute;
+	height: 25px;
+	width: 80px;
+	top: 158px;
+	left: -40px;
+	background-color: #D00000;
+	opacity: 1.0;
+	-webkit-transition: all 1s;
+	-moz-transition: all 1s;
+	-o-transition: all 1s;
+	transition: all 1s;
+}
+/* Studies */
+/* Resume */
+#linkBoxResume {
+	position: absolute;
+	font-size: 14px;
+	height: 25px;
+	width: 80px;
+	top: 158px;
+	left: 40px;
+	line-height: 22px;
+	background-color: #transparent;
+	border-width: 1px;
+	border-left-style: solid;
+	border-color: #454545;
+}
+#linkBoxResume a:link {
+	color: #454545;
+	text-decoration: none;
+}
+#linkBoxResume a:visited {
+	color: #454545;
+	text-decoration: none;
+}
+#linkBoxResume a:hover {
+	color: #454545;
+	text-decoration: none;
+	color: #FFFFFF;
+	-webkit-transition: all 1s;
+	-moz-transition: all 1s;
+	-o-transition: all 1s;
+	transition: all 1s;
+}
+#linkBoxResume a:active {
+	color: #454545;
+	text-decoration: none;
+}
+#linkBox4 {
+	position: absolute;
+	height: 25px;
+	width: 0px;
+	top: 158px;
+	left: 80px;
+	background-color: #D00000;
+	opacity: 1.0;
+	-webkit-transition: all 1s;
+	-moz-transition: all 1s;
+	-o-transition: all 1s;
+	transition: all 1s;
+}
+#linkBox4filled {
+	position: absolute;
+	height: 25px;
+	width: 80px;
+	top: 158px;
+	left: 40px;
+	background-color: #D00000;
+	opacity: 1.0;
+	-webkit-transition: all 1s;
+	-moz-transition: all 1s;
+	-o-transition: all 1s;
+	transition: all 1s;
+}
+/* End of resume */
+/* Contact Info */
+#linkBoxContact {
+	position: absolute;
+	font-size: 14px;
+	height: 25px;
+	width: 79px;
+	top: 158px;
+	left: 120px;
+	line-height: 22px;
+	background-color: #transparent;
+	border-width: 1px;
+	border-left-style: solid;
+	border-right-style: solid;
+	border-color: #454545;
+}
+#linkBoxContact a:link {
+	color: #454545;
+	text-decoration: none;
+}
+#linkBoxContact a:visited {
+	color: #454545;
+	text-decoration: none;
+}
+#linkBoxContact a:hover {
+	color: #454545;
+	text-decoration: none;
+	color: #FFFFFF;
+	-webkit-transition: all 1s;
+	-moz-transition: all 1s;
+	-o-transition: all 1s;
+	transition: all 1s;
+}
+#linkBoxContact a:active {
+	color: #454545;
+	text-decoration: none;
+}
+#linkBox5 {
+	position: absolute;
+	height: 25px;
+	width: 0px;
+	top: 158px;
+	left: 160px;
+	background-color: #D00000;
+	opacity: 1.0;
+	-webkit-transition: all 1s;
+	-moz-transition: all 1s;
+	-o-transition: all 1s;
+	transition: all 1s;
+}
+#linkBox5filled {
+	position: absolute;
+	height: 25px;
+	width: 80px;
+	top: 158px;
+	left: 120px;
+	background-color: #D00000;
+	opacity: 1.0;
+	-webkit-transition: all 1s;
+	-moz-transition: all 1s;
+	-o-transition: all 1s;
+	transition: all 1s;
+}
+/* End of contact info */
+/* ----- END OF LINKS ----- */
+
+
+/* ----- CONTENT ----- */
+#aboutBox {
+	padding-top: 30px;
+	position: relative;
+	top: 188px;
+	width: 100%;
+	text-align: left;
+
+}
+#spacer {
+	padding-left: 5%;
+	padding-right: 5%;
+	background-color: #FFFFFF;
+	padding-bottom: 50px;
+	border-radius: 12px;
+}
+#norm {
+	padding-left: 5%;
+	padding-right: 5%;
+}
+#normH {
+	padding-right: 30px;
+}
+#big {
+	font-size: 20px;
+	padding-left: 30px;
+	padding-right: 30px;
+}
+#small {
+	padding-top: 90px;
+	padding-left: 30px;
+	font-size: 10px;
+	color: #909090;
+}
+#smallImgFooter {
+	text-align: center;
+	font-size: 10px;
+	color: #909090;	
+}
+#quote {
+	font-style: italic;
+	font-size: 15px;
+	color: #909090;
+}
+#quoteUnder {
+	padding-left: 50%;
+}
+/* ----- SPECIAL PARAGRAPH INDENTATION----- */
+#home {
+	padding-left: 25%;
+	padding-right: 5%;
+}
+#patrick {
+	padding-left: 12.5%;
+	padding-right: 5%;
+}
+#beyondRegret {
+	padding-left: 10%;
+	padding-right: 5%;
+}
+
+/* ----- IMAGES ----- */
+#selfPhoto {
+	position: absolute;
+	padding-top: 10px;
+	width: 18%;
+	max-width: 240px;
+	padding-left: 2.5%;
+}
+#patrickImg {
+	position: absolute;
+	padding-top: 10px;
+	width: 7.5%;
+	max-width: 100px;
+	padding-left: 2%;
+}
+#beyondRegretImg {
+	position: absolute;
+	padding-top: 2px;
+	width: 3.75%;
+	max-width: 50px;
+	padding-left: 3%;
+}
+#tessellatedImg {
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+#tankImg {
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+	width: 750px;
+}
+#resumeImg {
+	display: block;
+	position: absolute;
+	width: 80%;
+	max-width: 900px;
+	top: 572px;
+}
