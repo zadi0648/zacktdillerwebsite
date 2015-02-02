@@ -2,57 +2,58 @@
 <html>
 <!-- HEAD -->
 <head>
-<meta charset="UTF-8">
-<title>Zack Diller's Website</title>
-<link href='style.css' rel='stylesheet' type='text/css'>
+  <meta charset="UTF-8">
+  <title>Zack Diller's Website</title>
+  <link href='style.css' rel='stylesheet' type='text/css'>
+  <link rel="icon" href="images/zd.ico" type="image/x-icon">
 
-<!-- Java script to provide the link roll-over effects -->
-<script type="text/javascript">
-/* About */
-function expandAboutBox() {
-	var change = document.getElementById("linkBox1");
-	change.style.width = "80px";
-	change.style.left = "-200px";
-}
-function shrinkAboutBox() {
-	var change = document.getElementById("linkBox1");
-	change.style.width = "0px";
-	change.style.left = "-160px";
-}
-/* Game Design */
-function expandGameBox() {
-	var change = document.getElementById("linkBox2");
-	change.style.width = "80px";
-	change.style.left = "-120px";
-}
-function shrinkGameBox() {
-	var change = document.getElementById("linkBox2");
-	change.style.width = "0px";
-	change.style.left = "-80px";
-}
-/* Studies */
-function expandStudyBox() {
-	var change = document.getElementById("linkBox3");
-	change.style.width = "80px";
-	change.style.left = "-40px";
-}
-function shrinkStudyBox() {
-	var change = document.getElementById("linkBox3");
-	change.style.width = "0px";
-	change.style.left = "0px";
-}
-/* Resume */
-function expandResumeBox() {
-	var change = document.getElementById("linkBox4");
-	change.style.width = "80px";
-	change.style.left = "40px";
-}
-function shrinkResumeBox() {
-	var change = document.getElementById("linkBox4");
-	change.style.width = "0px";
-	change.style.left = "80px";
-}
-</script>
+  <!-- Java script to provide the link roll-over effects -->
+  <script type="text/javascript">
+  /* About */
+  function expandAboutBox() {
+  	var change = document.getElementById("linkBox1");
+  	change.style.width = "80px";
+  	change.style.left = "-200px";
+  }
+  function shrinkAboutBox() {
+  	var change = document.getElementById("linkBox1");
+  	change.style.width = "0px";
+  	change.style.left = "-160px";
+  }
+  /* Game Design */
+  function expandGameBox() {
+  	var change = document.getElementById("linkBox2");
+  	change.style.width = "80px";
+  	change.style.left = "-120px";
+  }
+  function shrinkGameBox() {
+  	var change = document.getElementById("linkBox2");
+  	change.style.width = "0px";
+  	change.style.left = "-80px";
+  }
+  /* Studies */
+  function expandStudyBox() {
+  	var change = document.getElementById("linkBox3");
+  	change.style.width = "80px";
+  	change.style.left = "-40px";
+  }
+  function shrinkStudyBox() {
+  	var change = document.getElementById("linkBox3");
+  	change.style.width = "0px";
+  	change.style.left = "0px";
+  }
+  /* Resume */
+  function expandResumeBox() {
+  	var change = document.getElementById("linkBox4");
+  	change.style.width = "80px";
+  	change.style.left = "40px";
+  }
+  function shrinkResumeBox() {
+  	var change = document.getElementById("linkBox4");
+  	change.style.width = "0px";
+  	change.style.left = "80px";
+  }
+  </script>
 </head>
 
 <body>
@@ -88,9 +89,8 @@ function shrinkResumeBox() {
     <nav id = linkBoxContact> <a href= "contact.html" onMouseOver="expandContactBox()" onMouseOut="shrinkContactBox()"><font color="white">Contact</font></a></nav>
   </div>
   <!-- END OF NAVIGATION --> 
-  
+
   <!-- CONTENT -->
-  
   <article id = "aboutBox">
     <div id="spacer"> <br>
       <div align="center" id="norm">Let's get in touch! I check my email daily.</div>
@@ -100,9 +100,45 @@ function shrinkResumeBox() {
       <h2>Contact</h2>
       <br>
       <br>
-      <p><b>Email:</b> <a href="mailto:zack.diller@gmail.com" target="_top">Zack.Diller@gmail.com</a></p>
-      <p><b>Linked In:</b> <a href="http://www.linkedin.com/pub/zack-diller/59/773/56b/">Zack Diller</a></p>
-      <p><b>CU Game Developer's Club Email:</b> <a href="mailto:cugamedevelopers@colorado.edu" target="_top">CuGameDevelopers@colorado.edu</a></p>
+      <br>
+
+      <div id="contactImgsDiv1"><img id="contactImgs" src="images/email.png" alt="Email Zack at Zack.Diller@gmail.com"></div>
+      <div id="contactInfo1"><font id="contactLink"><a id="contactLink" href="mailto:zack.diller@gmail.com" target="_top">Zack.Diller@gmail.com</a></font></div>
+
+      <div id="contactImgsDiv2"><img id="contactImgs" src="images/linkedin.png" alt="Connect with Zack on Linkedin"></div>
+      <div id="contactInfo2"><font id="contactLink"><a id="contactLink" href="http://www.linkedin.com/pub/zack-diller/59/773/56b/">Zack Diller</a></font></div>
+
+      <div id="contactImgsDiv3"><img id="contactImgs" src="images/buffs.png" alt="Contact CU Game Developer's Club"></div>
+      <div id="contactInfo3"><font id="contactLink">
+        <a id="contactLink" href="mailto:cugamedevelopers@colorado.edu" target="_top">CuGameDevelopers@colorado.edu</a><br></font>
+        (CU Game Developer's Club Email)</div>
+        
+      <div id="contactImgsDiv4"><img id="contactImgs" src="images/git.png" alt="Zack's Github account"></div>
+      <div id="contactInfo4"><font id="contactLink"><a href="https://github.com/zadi0648">zadi0648</a></font></div>
+
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
     </div>
     <br>
     <br>

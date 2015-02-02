@@ -2,57 +2,58 @@
 <html>
 <!-- HEAD -->
 <head>
-<meta charset="UTF-8">
-<title>Zack Diller's Website</title>
-<link href='style.css' rel='stylesheet' type='text/css'>
+  <meta charset="UTF-8">
+  <title>Zack Diller's Website</title>
+  <link href='style.css' rel='stylesheet' type='text/css'>
+  <link rel="icon" href="images/zd.ico" type="image/x-icon">
 
-<!-- Java script to provide the link roll-over effects -->
-<script type="text/javascript">
-/* About */
-function expandAboutBox() {
-	var change = document.getElementById("linkBox1");
-	change.style.width = "80px";
-	change.style.left = "-200px";
-}
-function shrinkAboutBox() {
-	var change = document.getElementById("linkBox1");
-	change.style.width = "0px";
-	change.style.left = "-160px";
-}
-/* Studies */
-function expandStudyBox() {
-	var change = document.getElementById("linkBox3");
-	change.style.width = "80px";
-	change.style.left = "-40px";
-}
-function shrinkStudyBox() {
-	var change = document.getElementById("linkBox3");
-	change.style.width = "0px";
-	change.style.left = "0px";
-}
-/* Resume */
-function expandResumeBox() {
-	var change = document.getElementById("linkBox4");
-	change.style.width = "80px";
-	change.style.left = "40px";
-}
-function shrinkResumeBox() {
-	var change = document.getElementById("linkBox4");
-	change.style.width = "0px";
-	change.style.left = "80px";
-}
-/* Contact */
-function expandContactBox() {
-	var change = document.getElementById("linkBox5");
-	change.style.width = "80px";
-	change.style.left = "120px";
-}
-function shrinkContactBox() {
-	var change = document.getElementById("linkBox5");
-	change.style.width = "0px";
-	change.style.left = "160px";
-}
-</script>
+  <!-- Java script to provide the link roll-over effects -->
+  <script type="text/javascript">
+  /* About */
+  function expandAboutBox() {
+  	var change = document.getElementById("linkBox1");
+  	change.style.width = "80px";
+  	change.style.left = "-200px";
+  }
+  function shrinkAboutBox() {
+  	var change = document.getElementById("linkBox1");
+  	change.style.width = "0px";
+  	change.style.left = "-160px";
+  }
+  /* Studies */
+  function expandStudyBox() {
+  	var change = document.getElementById("linkBox3");
+  	change.style.width = "80px";
+  	change.style.left = "-40px";
+  }
+  function shrinkStudyBox() {
+  	var change = document.getElementById("linkBox3");
+  	change.style.width = "0px";
+  	change.style.left = "0px";
+  }
+  /* Resume */
+  function expandResumeBox() {
+  	var change = document.getElementById("linkBox4");
+  	change.style.width = "80px";
+  	change.style.left = "40px";
+  }
+  function shrinkResumeBox() {
+  	var change = document.getElementById("linkBox4");
+  	change.style.width = "0px";
+  	change.style.left = "80px";
+  }
+  /* Contact */
+  function expandContactBox() {
+  	var change = document.getElementById("linkBox5");
+  	change.style.width = "80px";
+  	change.style.left = "120px";
+  }
+  function shrinkContactBox() {
+  	var change = document.getElementById("linkBox5");
+  	change.style.width = "0px";
+  	change.style.left = "160px";
+  }
+  </script>
 </head>
 
 <body>
@@ -104,46 +105,50 @@ function shrinkContactBox() {
       <br>
       <h2>Patrick</h2>
       <br>
-      <img id="patrickImg" src="Images/patrick.png" alt="Patrick from the iOS game Patrick">
-      <p id="patrick">Patrick is a game on the app store that you can <a href="https://itunes.apple.com/us/app/patrick/id838395628?mt=8">download now</a> if you have iPhone in your hands.  It is a free game with in-game ads that are displayed during breaks in the gameplay. Patrick is based off an incredibly simple yet hugely popular game you probably recongize. The whole purpose of Patrick was to gain experience making a game suitable for the app store. The game was released just a month before Luna's Wandering Stars and as such was Serenity Forge's first release of a game that wasn't an artistic visual novel. Patrick was a quick project that I programmed 100% of that taught us all a lot about mobile games.</p>
+      <img id="patrickImg" src="images/patrick.png" alt="Patrick from the iOS game Patrick">
+      <p id="patrick">Patrick is a game on the app store that you can <a href="https://itunes.apple.com/us/app/patrick/id838395628?mt=8">download now</a> if you have iPhone in your hands.  It is a free game with in-game ads that are displayed during breaks in the gameplay. Patrick is based off an incredibly simple yet hugely popular game you probably recognize. The whole purpose of Patrick was to gain experience making a game suitable for the app store. The game was released just a month before Luna's Wandering Stars and as such was Serenity Forge's first release of a game that wasn't an artistic visual novel. Patrick was a quick project that I programmed 100% of that taught us all a lot about mobile games.</p>
       <br>
       <h2>Beyond Regret</h2>
       <br>
-      <img id="beyondRegretImg" src="Images/imp.png" alt="Player character from Beyond Regret">
+      <img id="beyondRegretImg" src="images/imp.png" alt="Player character from Beyond Regret">
       <p id="beyondRegret">I helped get Beyond Regret to get it into a state to be ready to be shown in a game trailer at Denver Comic Con. I implemented core game features such as allowing the player to latch onto ledges and creating dynamic objects in the game such as bouncy couches and chandeliers that the player can swing on.</p>
       <p id="beyondRegret"><a href="https://www.youtube.com/watch?v=-8dGZgbqf40">Link to the trailer</a></p>
       <br>
       <h2>Tessellated World</h2>
       <br>
-      <p id="norm">Advanced Computer Graphics final project. Some strategy games these days involve tessellating the environment as it gets closer to the camera. The basic idea is to reduce the polycount of objects the further away an object is from the camera for performace reasons. In this OpenGL program written in c, I created a mountainous environment that is tessellated all using my own shaders. This also includes an army of knights being made into sprites once once far away enough from the camera. This program takes pictures of the knight models at all viewable angles to make these sprites possible.</p>
+      <p id="norm">Advanced Computer Graphics final project. Some strategy games these days involve tessellating the environment as it gets closer to the camera. The basic idea is to reduce the polycount of objects the further away an object is from the camera for performance reasons. In this OpenGL program written in c, I created a mountainous environment that is tessellated all using my own shaders. This also includes an army of knights being made into sprites once far away enough from the camera. This program takes pictures of the knight models at all viewable angles to make these sprites possible.</p>
       <br>
-      <img id="tessellatedImg" src="Images/tessellatedWorld.png" alt="Thanks to http://codeflow.org/entries/2010/nov/07/opengl-4-tessellation/">
-      <p id="smallImgFooter">Note: Image from <a href="http://codeflow.org/entries/2010/nov/07/opengl-4-tessellation/">Codeflow</a>, similiar looking to my program. Actual images coming soon.</p>
+      <img id="tessellatedImg" src="images/tessellated_world.png" alt="Images from Zack Diller's tessellated world">
+      <br>
       <br>
       <h2>Tank Simulator</h2>
       <br>
-      <p id="norm">Computer Graphics final project. Using c, OpenGL, SDL, and 3D models I made in Blender, the player drives around a tank in a simple desert gully. It features gas particles coming out of the tank's exhuast, a fully rotational turrent, moving wheels and tank treads, the ability to shoot the tank's cannon, and the tank shells colliding with the environment which creates an explosion.</p>
+      <p id="norm">Computer Graphics final project. Using c, OpenGL, SDL, and 3D models I made in Blender, the player drives around a tank in a simple desert gully. It features gas particles coming out of the tank's exhaust, a fully rotational turret, moving wheels and tank treads, the ability to shoot the tank's cannon, and the tank shells colliding with the environment which creates an explosion.</p>
       <br>
-      <img id="tankImg" src="Images/tanks.png" alt="Images from Zack Diller's tank simulator">
+      <img id="tankImg" src="images/tanks.png" alt="Images from Zack Diller's tank simulator">
+      <br>
       <br>
       <h2>TNT Gold Rush</h2>
       <br>
       <p id="norm">TNT Gold Rush is a game I made in Game Maker senior year of high school, <a href="http://sandbox.yoyogames.com/games/176816-tnt-gold-rush">available for download</a>. I created for a Technology Student Association video game design competition. The game features over 100 hours of gameplay if you play all 21 levels. The game is all about manipulating the location of timed TNT bombs which are dropped randomly from a mining cart rolling above the player. Use the TNT to create holes in the ground in order to extract precious gold nuggets, without being blown up in the process! The player can speed up the mining process using explosive goo and super ability granting orbs that are extracted from the ground on the way down to the gold.</p>
       <br>
-      <img id="tessellatedImg" src="Images/tntGoldRush.png" alt="Images from Zack Diller's tank simulator">
+      <img id="tessellatedImg" src="images/tntGoldRush.png" alt="Loading screen for Zack Diller's TNT Gold Rush game">
+      <br>
       <br>
       <h2>Grasshopper</h2>
       <br>
-      <p id="norm">Animation final project. This project used numerous objects created in Blender and rendered with Maya. Check it out below:</p>
-      <iframe width="420" height="315" left="50%" src="//www.youtube.com/embed/IQkSG8kk2v4" frameborder="0" allowfullscreen></iframe>
+      <p id="norm">Animation final project. This project used numerous objects I created in Blender and rendered with Maya. Check it out below:</p>
+      <div id="movieFrame">
+        <iframe width="420" height="315" src="//www.youtube.com/embed/IQkSG8kk2v4" frameborder="0" allowfullscreen></iframe>
+      </div>
       <br>
-      <a href="https://www.youtube.com/watch?v=IQkSG8kk2v4">Alternative Link</a>
+      <p id="norm">My tank models from the tank simulator were used as toys. If that doesn't seem to load, try this <a href="https://www.youtube.com/watch?v=IQkSG8kk2v4">alternative link</a>. Also, here is a <a href="https://www.youtube.com/watch?v=5EO-lv3FtLk">bonus stop-animation</a> video I made for a similar class (music and everything done by me).</p>
       <br>
       <br>
       <h2>Miscellaneous</h2>
       <br>
       <p id="norm">The first video game I ever made was all the way back in second grade, when I made an untitled game using an early version of Game Maker where you play as a small blue dinosaur trying to get through a maze without colliding into any baddies.</p>
-      <p id="norm">Other games I have worked on worth mentioning include "No Longer Human" and "House Hopper". "No Longer Human" is a first person free-to-play fps based on elemental powers that interact with the environment. It is being created in the Unreal Developer's Kit. I implemented a few of these elemental powers into the game. "House Hopper" was a game where you play as a grasshopper inside a three dimension house. The objective is to leave the house in a limited number of jumps without touching the floor, for otherwise you will be stepped on! "House Hopper" was created in the Unity engine, and a lot of the assets you see in the Grasshopper animation video above were intended to be used in the game. "House Hopper" was left unfinished because I found them to be too ambitous for such a small and limited team.</p>
+      <p id="norm">Other games I have worked on worth mentioning include "No Longer Human" and "House Hopper". "No Longer Human" is a first person free-to-play fps based on elemental powers that interact with the environment. It is being created in the Unreal Developer's Kit. I implemented a few of these elemental powers into the game. "House Hopper" was a game where you play as a grasshopper inside a three dimension house. The objective is to leave the house in a limited number of jumps without touching the floor, for otherwise you will be stepped on! "House Hopper" was created in the Unity engine, and a lot of the assets you see in the Grasshopper animation video above were intended to be used in the game. "House Hopper" was left unfinished because I found them to be too ambitious for such a small and limited team.</p>
     </div>
     <br>
     <br>

@@ -73,9 +73,9 @@ ul {
 /* Stripe behind name */
 #headerStripe {
 	position: absolute;
-	height: 132px;
+	height: 166px;
 	width: 80%;
-	top: 25px;
+	top: 30px;
 	left: 10%;
 	border-color: #454545;
 	border-bottom-style: solid;
@@ -84,9 +84,9 @@ ul {
 }
 #headerStripeBG {
 	position: absolute;
-	height: 230px;
+	height: 260px;
 	width: 100%;
-	top: 25px;
+	top: 30px;
 	left: 0%;
 	border-radius: 12px;
 	background-color: #FFFFFF;
@@ -96,7 +96,7 @@ ul {
 	position: absolute;
 	height: 284px;
 	width: 100%;
-	top: 24px;
+	top: 42px;
 	left: 0px;
 	background-color: #transparent;
 	letter-spacing: 12px;
@@ -132,7 +132,7 @@ ul {
 	height: 28px;
 	color: #454545;
 	width: 100%;
-	top: 117px;
+	top: 150px;
 	left: 0px;
 	background-color: #transparent;
 	font-family: textfont;
@@ -149,7 +149,7 @@ ul {
 	font-size: 14px;
 	height: 25px;
 	width: 80px;
-	top: 158px;
+	top: 197px;
 	left: -200px;
 	line-height: 22px;
 	background-color: #transparent;
@@ -182,7 +182,7 @@ ul {
 	position: absolute;
 	height: 25px;
 	width: 0px;
-	top: 158px;
+	top: 197px;
 	left: -160px;
 	background-color: #D00000;
 	opacity: 1.0;
@@ -195,7 +195,7 @@ ul {
 	position: absolute;
 	height: 25px;
 	width: 80px;
-	top: 158px;
+	top: 197px;
 	left: -200px;
 	background-color: #D00000;
 	opacity: 1.0;
@@ -211,7 +211,7 @@ ul {
 	font-size: 14px;
 	height: 25px;
 	width: 80px;
-	top: 158px;
+	top: 197px;
 	left: -120px;
 	line-height: 22px;
 	background-color: #transparent;
@@ -244,7 +244,7 @@ ul {
 	position: absolute;
 	height: 25px;
 	width: 0px;
-	top: 158px;
+	top: 197px;
 	left: -80px;
 	background-color: #D00000;
 	opacity: 1.0;
@@ -257,7 +257,7 @@ ul {
 	position: absolute;
 	height: 25px;
 	width: 80px;
-	top: 158px;
+	top: 197px;
 	left: -120px;
 	background-color: #D00000;
 	opacity: 1.0;
@@ -273,7 +273,7 @@ ul {
 	font-size: 14px;
 	height: 25px;
 	width: 80px;
-	top: 158px;
+	top: 197px;
 	left: -40px;
 	line-height: 22px;
 	background-color: #transparent;
@@ -306,7 +306,7 @@ ul {
 	position: absolute;
 	height: 25px;
 	width: 0px;
-	top: 158px;
+	top: 197px;
 	left: 0px;
 	background-color: #D00000;
 	opacity: 1.0;
@@ -319,7 +319,7 @@ ul {
 	position: absolute;
 	height: 25px;
 	width: 80px;
-	top: 158px;
+	top: 197px;
 	left: -40px;
 	background-color: #D00000;
 	opacity: 1.0;
@@ -335,7 +335,7 @@ ul {
 	font-size: 14px;
 	height: 25px;
 	width: 80px;
-	top: 158px;
+	top: 197px;
 	left: 40px;
 	line-height: 22px;
 	background-color: #transparent;
@@ -368,7 +368,7 @@ ul {
 	position: absolute;
 	height: 25px;
 	width: 0px;
-	top: 158px;
+	top: 197px;
 	left: 80px;
 	background-color: #D00000;
 	opacity: 1.0;
@@ -381,7 +381,7 @@ ul {
 	position: absolute;
 	height: 25px;
 	width: 80px;
-	top: 158px;
+	top: 197px;
 	left: 40px;
 	background-color: #D00000;
 	opacity: 1.0;
@@ -397,7 +397,7 @@ ul {
 	font-size: 14px;
 	height: 25px;
 	width: 79px;
-	top: 158px;
+	top: 197px;
 	left: 120px;
 	line-height: 22px;
 	background-color: #transparent;
@@ -431,7 +431,7 @@ ul {
 	position: absolute;
 	height: 25px;
 	width: 0px;
-	top: 158px;
+	top: 197px;
 	left: 160px;
 	background-color: #D00000;
 	opacity: 1.0;
@@ -444,7 +444,7 @@ ul {
 	position: absolute;
 	height: 25px;
 	width: 80px;
-	top: 158px;
+	top: 197px;
 	left: 120px;
 	background-color: #D00000;
 	opacity: 1.0;
@@ -456,12 +456,11 @@ ul {
 /* End of contact info */
 /* ----- END OF LINKS ----- */
 
-
 /* ----- CONTENT ----- */
 #aboutBox {
 	padding-top: 30px;
 	position: relative;
-	top: 188px;
+	top: 238px;
 	width: 100%;
 	text-align: left;
 
@@ -544,17 +543,107 @@ ul {
 	display: block;
     margin-left: auto;
     margin-right: auto;
+    max-width: 90%;
 }
 #tankImg {
 	display: block;
     margin-left: auto;
     margin-right: auto;
 	width: 750px;
+	max-width: 85%;
+}
+#resumeDownlaodImg {
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 #resumeImg {
-	display: block;
-	position: absolute;
+	margin-left: auto;
+    margin-right: auto;
 	width: 80%;
 	max-width: 900px;
-	top: 572px;
+}
+#movieFrame {
+	width: 420px;
+	height: 315px;
+	margin-left: auto;
+    margin-right: auto;
+}
+#contactImgs {
+	display: block;
+	margin-left: auto;
+	width: 64px;
+}
+
+/* Contact Page stuff */
+#contactLink {
+	padding-top: -300px;
+	color: #454545;
+	font-size: 20px;
+	text-align: left;
+	text-decoration: none;
+}
+#contactLink a:link {
+	color: #454545;
+	text-decoration: none;
+}
+#contactLink a:visited {
+	color: #454545;
+	text-decoration: none;
+}
+#contactLink a:hover {
+	color: #454545;
+	text-decoration: underline;
+}
+#contactLink a:active {
+	color: #454545;
+	text-decoration: underline;
+}
+#contactImgsDiv1 {
+	position: absolute;
+	top: 210px;
+	height: 100px;
+	width: 35%;
+}
+#contactInfo1 {
+	position: absolute;
+	top: 215px;
+	height: 100px;
+	left: 42%;
+}
+#contactImgsDiv2 {
+	position: absolute;
+	top: 310px;
+	height: 100px;
+	width: 35%;
+}
+#contactInfo2 {
+	position: absolute;
+	top: 320px;
+	height: 100px;
+	left: 42%;
+}
+#contactImgsDiv3 {
+	position: absolute;
+	top: 410px;
+	height: 100px;
+	width: 35%;
+}
+#contactInfo3 {
+	position: absolute;
+	top: 410px;
+	height: 100px;
+	left: 42%;
+}
+#contactImgsDiv4 {
+	position: absolute;
+	top: 510px;
+	height: 100px;
+	width: 35%;
+}
+#contactInfo4 {
+	position: absolute;
+	top: 520px;
+	height: 100px;
+	left: 42%;
 }
