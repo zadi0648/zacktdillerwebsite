@@ -569,81 +569,45 @@ ul {
 	margin-left: auto;
     margin-right: auto;
 }
-#contactImgs {
-	display: block;
-	margin-left: auto;
-	width: 64px;
-}
 
 /* Contact Page stuff */
-#contactLink {
-	padding-top: -300px;
-	color: #454545;
-	font-size: 20px;
-	text-align: left;
-	text-decoration: none;
+#contactImg1 {
+	display: block;
+	height: 45px;
 }
-#contactLink a:link {
-	color: #454545;
-	text-decoration: none;
+#contactImg2 {
+	display: block;
+	height: 70px;
 }
-#contactLink a:visited {
-	color: #454545;
-	text-decoration: none;
+#contactImg3 {
+	display: block;
+	height: 51px;
 }
-#contactLink a:hover {
-	color: #454545;
-	text-decoration: underline;
-}
-#contactLink a:active {
-	color: #454545;
-	text-decoration: underline;
+#contactImg4 {
+	display: block;
+	height: 70px;
 }
 #contactImgsDiv1 {
 	position: absolute;
-	top: 210px;
-	height: 100px;
-	width: 35%;
-}
-#contactInfo1 {
-	position: absolute;
 	top: 215px;
-	height: 100px;
-	left: 42%;
+	height: 45px;
+	left: 22%;
 }
 #contactImgsDiv2 {
 	position: absolute;
 	top: 310px;
-	height: 100px;
-	width: 35%;
-}
-#contactInfo2 {
-	position: absolute;
-	top: 320px;
-	height: 100px;
-	left: 42%;
+	height: 70px;
+	left: 22%;
 }
 #contactImgsDiv3 {
 	position: absolute;
-	top: 410px;
-	height: 100px;
-	width: 35%;
-}
-#contactInfo3 {
-	position: absolute;
-	top: 410px;
-	height: 100px;
-	left: 42%;
+	top: 415px;
+	height: 51px;
+	left: 22%;
 }
 #contactImgsDiv4 {
 	position: absolute;
 	top: 510px;
-	height: 100px;
-	width: 35%;
-}
-#contactInfo4 {
-	position: absolute;
-	top: 520px;
-	height: 100px;
-	left: 42%;
+	height: 70px;
+	left: 22%;
 }
